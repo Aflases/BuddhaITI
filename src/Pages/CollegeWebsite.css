@@ -1,0 +1,4 @@
+.custom-text-outline{
+    -webkit-text-stroke: 1px black; /* or white */
+    text-stroke: 1px black; /* for other browsers */
+}
