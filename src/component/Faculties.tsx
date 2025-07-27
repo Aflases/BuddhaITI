@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Faculties = () => {
       const faculties = [
     { id: 1, name: 'Late Er. Jainath Prasad', department:'Founder', image: '/assets/Founder.jpeg' },

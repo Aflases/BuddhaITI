@@ -1,5 +1,5 @@
 import { ChevronLeft, ChevronRight } from 'lucide-react'
-import React, { useState } from 'react'
+import  { useState } from 'react'
 
 const AboutUs = () => {
       const [currentSlide, setCurrentSlide] = useState(0);
