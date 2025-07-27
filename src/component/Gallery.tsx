@@ -13,7 +13,7 @@ const galleryImages = [
   { id: 4, src: '/assets/ClassRoom.jpeg', alt: 'Class Room' },
   { id: 5, src: '/assets/MajorPoster.jpeg', alt: 'Major Poster' },
   { id: 6, src: '/assets/Acheivements.jpeg', alt: 'Student Achievements' },
-  { id: 7, src: '/assets/Library.jpeg', alt: 'College Library' },
+  { id: 7, src: '/assets/Library.png', alt: 'College Library' },
   { id: 8, src: '/assets/Grinder.jpeg', alt: 'Workshop Grinder' },
   { id: 9, src: '/assets/Workshop.jpeg', alt: 'College Workshop View 1' },
   { id: 10, src: '/assets/Workshop2.jpeg', alt: 'College Workshop View 2' },
