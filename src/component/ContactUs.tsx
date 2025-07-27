@@ -31,7 +31,7 @@ const ContactUs = () => {
             <div className="bg-white rounded-xl shadow-lg p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Send us a Message</h3>
               <div className="space-y-6">
-                <form  action="https://formsubmit.co/biffhspvtiti@gmail.com" 
+                <form  action="https://formsubmit.co/aflasesonami@gmail.com" 
   method="POST"  onSubmit={(e) => {
     if (formData.name === '' || formData.email === '' || formData.message === '' || formData.number === '') {
       e.preventDefault();  // Stop submission if invalid
