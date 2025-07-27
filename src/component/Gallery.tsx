@@ -7,16 +7,16 @@ interface GalleryImage {
 }
 
 const galleryImages = [
-  { id: 1, src: `${import.meta.env.BASE_URL}assets/Entrance.jpeg`, alt: 'College Entrance' },
-  { id: 2, src: `${import.meta.env.BASE_URL}assets/computerlab.jpeg`, alt: 'Computer Lab' },
-  { id: 3, src: `${import.meta.env.BASE_URL}assets/newspapercutout.jpeg`, alt: 'Newspaper Mention' },
-  { id: 4, src: `${import.meta.env.BASE_URL}assets/ClassRoom.jpeg`, alt: 'Class Room' },
-  { id: 5, src: `${import.meta.env.BASE_URL}assets/MajorPoster.jpeg`, alt: 'Major Poster' },
-  { id: 6, src: `${import.meta.env.BASE_URL}assets/Acheivements.jpeg`, alt: 'Student Achievements' },
-  { id: 7, src: `${import.meta.env.BASE_URL}assets/Library.png`, alt: 'College Library' },
-  { id: 8, src: `${import.meta.env.BASE_URL}assets/Grinder.jpeg`, alt: 'Workshop Grinder' },
-  { id: 9, src: `${import.meta.env.BASE_URL}assets/Workshop.jpeg`, alt: 'College Workshop View 1' },
-  { id: 10, src: `${import.meta.env.BASE_URL}assets/Workshop2.jpeg`, alt: 'College Workshop View 2' },
+  { id: 1, src: `/assets/Entrance.jpeg`, alt: 'College Entrance' },
+  { id: 2, src: `/assets/computerlab.jpeg`, alt: 'Computer Lab' },
+  { id: 3, src: `/assets/newspapercutout.jpeg`, alt: 'Newspaper Mention' },
+  { id: 4, src: `/assets/ClassRoom.jpeg`, alt: 'Class Room' },
+  { id: 5, src: `/assets/MajorPoster.jpeg`, alt: 'Major Poster' },
+  { id: 6, src: `/assets/Acheivements.jpeg`, alt: 'Student Achievements' },
+  { id: 7, src: `/assets/Library.png`, alt: 'College Library' },
+  { id: 8, src: `/assets/Grinder.jpeg`, alt: 'Workshop Grinder' },
+  { id: 9, src: `/assets/Workshop.jpeg`, alt: 'College Workshop View 1' },
+  { id: 10, src: `/assets/Workshop2.jpeg`, alt: 'College Workshop View 2' },
 ];
 
 const Gallery = () => {

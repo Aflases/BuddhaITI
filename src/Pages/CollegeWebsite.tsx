@@ -21,7 +21,7 @@ const CollegeWebsite = () => {
   id="home"
   className="relative h-screen flex items-center justify-center overflow-hidden"
   style={{
-    backgroundImage: `url(${import.meta.env.BASE_URL}assets/Entrance.jpeg)`,
+    backgroundImage: `url(/assets/Entrance.jpeg)`,
     backgroundSize: 'cover',
     backgroundPosition: 'top center',
   }}
