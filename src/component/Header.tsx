@@ -22,7 +22,7 @@ const Header = () => {
           <div className="flex justify-between items-center">
             {/* Logo and College Name */}
             <div className="flex items-center space-x-0 mr-0">
-              <img src='/assets/ITILOGO.jpg' alt="College Logo" className="w-30 h-18 border-none " />
+              <img src={`${import.meta.env.BASE_URL}/assets/ITILOGO.jpg`} alt="College Logo" className="w-30 h-18 border-none " />
               <div className="flex-shrink-1 min-w-0"> {/* Added flex-shrink-1 and min-w-0 for better shrinking */}
               {/* More aggressive responsive font sizes */}
               <h1 className="text-lg sm:text-xl md:text-3xl lg:text-4xl font-bold text-orange-400 leading-tight">BUDDHA (PVT) Industrial Training Institute</h1>
@@ -31,7 +31,7 @@ const Header = () => {
               {/* This paragraph is now visible on all screen sizes and scales down */}
               <p className="text-xs sm:text-sm md:text-base text-black-500 leading-tight">DGT, Ministry of skill development & Enterpreneurship, Govt. of India</p>
             </div>
-               <img src='/assets/Skill India.jpeg' alt="Skill India" className="w-30 h-18 border-none hidden md:mr-28 md:block" />
+               <img src={`${import.meta.env.BASE_URL}/assets/Skill India.jpeg`} alt="Skill India" className="w-30 h-18 border-none hidden md:mr-28 md:block" />
             </div>
 
             {/* Desktop Navigation */}

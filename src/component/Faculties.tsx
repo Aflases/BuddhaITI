@@ -1,7 +1,7 @@
 const Faculties = () => {
       const faculties = [
-    { id: 1, name: 'Late Er. Jainath Prasad', department:'Founder', image: '/assets/Founder.jpeg' },
-    { id: 2, name: 'Rakesh Kumar', department: 'Director', image: '/assets/Director.jpeg' },
+    { id: 1, name: 'Late Er. Jainath Prasad', department:'Founder', image: `${import.meta.env.BASE_URL}/assets/Founder.jpeg` },
+    { id: 2, name: 'Rakesh Kumar', department: 'Director', image: `${import.meta.env.BASE_URL}/assets/Director.jpeg` },
     ];
 
   

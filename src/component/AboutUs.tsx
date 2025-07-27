@@ -4,10 +4,10 @@ import  { useState } from 'react'
 const AboutUs = () => {
       const [currentSlide, setCurrentSlide] = useState(0);
         const aboutImages = [
-    { id: 1, src: '/assets/Entrance.jpeg', alt: 'Campus Entrance' },
-    { id: 2, src: '/assets/computerlab.jpeg', alt: 'Computer Lab' },
-    { id: 3, src: '/assets/newspaperMention.jpeg', alt: 'Job Fare NewsPaper Mention' },
-    { id: 4, src: '/assets/Acheivements.jpeg', alt: 'Acheivements' }
+    { id: 1, src: `${import.meta.env.BASE_URL}/assets/Entrance.jpeg`, alt: 'Campus Entrance' },
+    { id: 2, src: `${import.meta.env.BASE_URL}/assets/computerlab.jpeg`, alt: 'Computer Lab' },
+    { id: 3, src: `${import.meta.env.BASE_URL}/assets/newspaperMention.jpeg`, alt: 'Job Fare NewsPaper Mention' },
+    { id: 4, src: `${import.meta.env.BASE_URL}/assets/Acheivements.jpeg`, alt: 'Acheivements' }
   ];
     
 
