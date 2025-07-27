@@ -3,19 +3,19 @@ const Download = () => {
   const downloadablePdfs = [
   {
     name: 'Affiliation Document',
-    url: `${import.meta.env.BASE_URL}/assets/pdfs/Affiliation.pdf`, // Placeholder URL
+    url: `${import.meta.env.BASE_URL}assets/pdfs/Affiliation.pdf`, // Placeholder URL
     fileName: 'NCVT Affiliation Document.pdf',
     description: 'Affiliation document with NCVT, DGT, and Ministry of Skill Development & Entrepreneurship.',
   },
   {
     name: 'Training Fee',
-    url: `${import.meta.env.BASE_URL}/assets/pdfs/Normative Training Fee for Private ITIs.pdf`,
+    url: `${import.meta.env.BASE_URL}assets/pdfs/Normative Training Fee for Private ITIs.pdf`,
     fileName: 'Normative Training Fee for Private ITIs.pdf',
     description:' Normative training fee structure for private ITIs.',
   },
   {
     name:'Circular on DDGM and Grading Scores 2025',
-    url: `${import.meta.env.BASE_URL}/assets/pdfs/Circular on DDGM AND GRADING SCORES 2025.pdf`,
+    url: `${import.meta.env.BASE_URL}assets/pdfs/Circular on DDGM AND GRADING SCORES 2025.pdf`,
     fileName: 'Circular on DDGM and Grading Scores 2025.pdf',
     description: 'Circular regarding DDGM and grading scores for the year 2025.',
   }
