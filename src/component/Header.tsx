@@ -1,17 +1,11 @@
+import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
-import  { useState } from 'react'
+import { useState } from 'react';
 
 
 const Header = () => {
-     const [activeSection, setActiveSection] = useState('home');
-       const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-     
-      const scrollToSection = (section: string) => {
-    setActiveSection(section);
-    setMobileMenuOpen(false);
-    const element = document.getElementById(section);
-    element?.scrollIntoView({ behavior: 'smooth' });
-  };
+  const [activeSection, setActiveSection] = useState('home');
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const sections = ['home', 'about', 'trade', 'faculties', 'gallery', 'download','antiragging', 'contact'];
 
@@ -37,19 +31,21 @@ const Header = () => {
             {/* Desktop Navigation */}
             <nav className="hidden md:flex space-x-8">
               {sections.map((item) => (
-
-               
-                          <button
+                <Link
                   key={item}
-                  onClick={() => scrollToSection(item)}
+                  to={`/${item === 'home' ? '' : item}`}
                   className={`px-1 py-2 rounded-md text-m font-medium transition-all duration-300 ${
                     activeSection === item
                       ? 'text-blue-600 bg-blue-50 border-b-2 border-blue-600'
-                      : 'text-m hover:text-lg pointer:cusor-pointer'
+                      : 'text-m pointer:cusor-pointer'
                   }`}
+                  onClick={() => {
+                    setActiveSection(item);
+                    setMobileMenuOpen(false);
+                  }}
                 >
                   {item.charAt(0).toUpperCase() + item.slice(1).replace('_', ' ')}
-                </button>
+                </Link>
               ))}
             </nav>
 
@@ -69,13 +65,17 @@ const Header = () => {
             <div className="md:hidden bg-white border-t border-gray-200">
               <div className="px-2 pt-2 pb-3 space-y-1">
                 {sections.map((item) => (
-                  <button
+                  <Link
                     key={item}
-                    onClick={() => scrollToSection(item)}
+                    to={`/${item === 'home' ? '' : item}`}
                     className="block w-full text-left px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50"
+                    onClick={() => {
+                      setActiveSection(item);
+                      setMobileMenuOpen(false);
+                    }}
                   >
                     {item.charAt(0).toUpperCase() + item.slice(1).replace('_', ' ')}
-                  </button>
+                  </Link>
                 ))}
               </div>
             </div>

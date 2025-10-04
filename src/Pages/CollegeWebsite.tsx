@@ -5,7 +5,6 @@ import ContactUs from "../component/ContactUs";
 import Download from "../component/Download";
 import Faculties from "../component/Faculties";
 import Gallery from "../component/Gallery";
-import Header from "../component/Header";
 import Trade from "../component/Trade";
 
 
@@ -13,9 +12,6 @@ const CollegeWebsite = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
-      <Header/>
-
       {/* Home Section - Jumbotron */}
       <section
   id="home"

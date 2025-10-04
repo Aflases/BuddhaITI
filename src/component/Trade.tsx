@@ -48,13 +48,14 @@ const Trade = () => {
                   <li>Transformers</li>
                   <li>AC/DC systems</li>
                 </ul>
+                <p className='text-xl'>ELIGIBILITY CRITERIA</p>
                <p className="text-m text-gray-700 leading-relaxed">
-                  <p className='text-xl'>ELIGIBILITY CRITERIA</p>
+                  10th pass (under 10+2 system of schooling) is the minimum qualification required to pursue this course.
                   <br/>
-                  10th pass (under 10+2 system of schooling) is the minimum qualification required to pursue this course.<br/>
+                  Total No. of seats - 40
                   <br/>
-                  Total No. of seats - 40<br/>
-                  Course Duration - 2 years<br/>
+                  Course Duration - 2 years
+                  <br/>
                   Examination - Yearly
                 </p>
               </>
@@ -77,10 +78,9 @@ Fitter is a gathering structural framework vocational trade. The span of course 
                   <li>Plant Maintenance Fitter</li>
                   <li>Lathe Machine Operator</li>
                 </ul>
+                <p className='text-xl'>ELIGIBILITY CRITERIA</p>
                 <p className="text-m text-gray-700 leading-relaxed">
-                  <p className='text-xl'>ELIGIBILITY CRITERIA</p>
-                  <br/>
-                  10th pass (under 10+2 system of schooling) is the minimum qualification required to pursue this course.<br/>
+                  10th pass (under 10+2 system of schooling) is the minimum qualification required to pursue this course.
                   <br/>
                   Total No. of seats - 40<br/>
                   Course Duration - 2 years<br/>
